@@ -1,0 +1,69 @@
+# Node modules for both backend and frontend
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs for frontend (Vite, React, etc.)
+dist/
+build/
+out/
+.vite/
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.sqlite
+db.js  # if db.js contains sensitive information, otherwise remove this line
+
+# Static assets generated files
+public/static/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Test coverage and results
+coverage/
+*.lcov
+
+# Lint and formatting caches
+.eslintcache
+.prettiercache
+
+# Other cache directories
+.parcel-cache/
+.nuxt/
+.next/
+
+# Temporary files and directories
+tmp/
+temp/
+*.tmp
+
+# Exclude package.json files
+package.json
+package-lock.json
+yarn.lock
+
